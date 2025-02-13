@@ -1,7 +1,11 @@
-export default function Home() {
-  return (
-    <main>
-      <div>Hello world!</div>
-    </main>
-  );
+import Formulario from "@/components/ui/form-log";
+
+const Home = () => {
+  return ( 
+    <div>
+      <Formulario/>
+    </div>
+   );
 }
+ 
+export default Home;
